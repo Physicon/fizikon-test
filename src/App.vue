@@ -40,7 +40,7 @@
       <ul class="courses-list">
         <li class="courses-sci" v-for="item in filteredItems" :key="item.courseId">
           <div class="sci-figure">
-            <img :src="`/svc/coursecover/${item.courseId}`" :alt="item.title" />
+            <img :src="`https://www.imumk.ru/svc/coursecover/${item.courseId}`" :alt="item.title" />
           </div>
           <div class="sci-info">
             <!-- {{ item }} -->
